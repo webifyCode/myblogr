@@ -1,0 +1,302 @@
+@media screen and (min-width: 300px){
+
+body {
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+  line-height: 1.75rem;
+}
+
+p, h1, h2, h4, li, div {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+/***HEADER & NAVIGATION***/
+
+header {
+  background: url("images/bg-pattern-intro.svg");
+  background-color: hsl(353, 100%, 62%);
+  background-size: 400%;
+  background-position: 38% 25%;
+  border-bottom-left-radius: 5em;
+  color: white;
+  padding: 3em 0 9em 0;
+  margin-bottom: 4em;
+  width: -webkit-fill-available;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+#header>p {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+#header_text {
+  padding: 2em;
+  padding-top: 5em;
+}
+
+#header_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 2em;
+}
+
+/***NAVIGATION MENU***/
+
+#hamburger, #navclose {
+  padding-top: 0.7em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#openMenu:checked ~ #navlist {
+  display: block;
+}
+
+#navlist {
+  margin: 1em;
+  margin-top: 4em;
+  background-color: white;
+  border-radius: 0.5rem;
+  color: hsl(207, 13%, 34%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
+  display: none;
+}
+
+#navlist a {
+  text-decoration: none;
+  color: unset;
+}
+
+#navclose {
+  display: none;
+}
+
+#product, #company, #connect {
+  border-radius: 0.3rem;
+  background-color: hsl(240, 2%, 79%);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: none;
+}
+
+#productMenu:checked ~ #product {
+  display: block;
+}
+
+#companyMenu:checked ~ #company {
+  display: block;
+}
+
+#connectMenu:checked ~ #connect {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+li {
+  padding: 0.5em;
+}
+
+
+
+li img {
+  margin-left: 0.5em;
+}
+
+#social {
+  border-top: 1px solid hsl(240, 2%, 79%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#social li {
+  text-align: center;
+}
+
+/*main content*/
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+/*#designed*/
+#designed {
+  padding: 1em;
+  margin-bottom: 8em;
+  display: flex;
+  flex-direction: column;
+}
+
+#editor {
+  padding: 1em;
+}
+
+#editor img {
+  width: 100%;
+}
+
+#robust {
+  margin-top: 2em;
+}
+
+/*#state*/
+#state {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  background: url("images/bg-pattern-circles.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -10px -150px;
+  background-color: hsl(237, 17%, 21%);
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+#state_text {
+  color: white;
+  transform: translate(0, -200px);
+}
+
+#designed_text, #free_text {
+  margin: 2em 2em 5em 2em;
+}
+
+#phones {
+  padding: 1em;
+}
+
+#phones img {
+  width: 100%;
+  transform: translate(0, -180px);
+}
+/*#free*/
+
+#free {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#laptop {
+  padding: 1em;
+}
+
+#laptop img{
+  width: 100%;
+}
+/*footer*/
+footer {
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 5rem;
+  color: hsl(240, 2%, 79%);
+  padding: 1em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#footer_logo {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+footer h4 {
+  color: white;
+}
+
+/*typography*/
+#designed h2, #free h2 {
+  color: hsl(208, 49%, 24%);
+}
+
+#designed p, #free p {
+  color: hsl(207, 13%, 34%);
+}
+
+/*buttons*/
+.button {
+  padding: 0.5em 1em;
+  border-radius: 2rem;
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+.button p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+#sign {
+  color: white;
+  background-color: hsl(353, 100%, 62%);
+  border: 1px solid hsl(353, 100%, 62%);
+  padding: 0.5em 2em;
+  width: auto;
+}
+
+#log {
+  padding: 0.5em;
+}
+
+#start {
+  background: white;
+  color: hsl(353, 100%, 62%);
+  margin-right: 2rem;
+  border: none;
+}
+
+#navlist, #log, #sign, #start, #learn {
+  transition: all 200ms ease-in 50ms;
+}
+
+#navlist ul a, #navlist ul label, #log, #sign, #start, #learn, a {
+  cursor: pointer;
+}
+
+
+#start:hover {
+  color: white;
+  background: hsla(353, 100%, 78%, 0.767);
+  border: none;
+}
+
+#learn:hover {
+  background: white;
+  color: hsl(353, 100%, 62%);
+}
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }

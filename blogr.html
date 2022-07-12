@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  
+  <link rel="stylesheet" href="blogr.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="blogrlarge.css" type="text/css" media="all" />
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div id="container">
+    <header>
+<div id="header">
+  <nav>
+  <div id="logo"><img src="images/logo.svg" alt="" /></div>
+  <label id="hamburger" for="openMenu">
+    <img src="images/icon-hamburger.svg" alt="" />
+  </label>
+  <label id="navclose" for="openMenu"><img src="images/icon-close.svg" alt="" /></label>
+  <input type="checkbox" id="openMenu">
+  <div id="navlist">
+        <ul>
+          
+  <li id="_prod">
+    <label for="productMenu"><span>Product</span>
+    <picture>
+      <source media="(min-width: 1200px)" srcset="images/icon-arrow-light.svg">
+      <source media="(max-width: 1199px)" srcset="images/icon-arrow-dark.svg">
+      <img src="images/icon-arrow-dark.svg">
+    </picture>
+    </label>
+    <input type="checkbox" id="productMenu">
+    
+
+    <ul id="product">
+      <li><a href="">Overview</a></li>
+      <li><a href="">Pricing</a></li>
+      <li><a href="">Marketplace</a></li>
+      <li><a href="">Features</a></li>
+      <li><a href="">Integrations</a></li>
+    </ul>
+  </li>
+  
+
+  <li id="_comp">
+    <label for="companyMenu">
+    <span>Company</span>
+    <picture>
+      <source media="(min-width: 1200px)" srcset="images/icon-arrow-light.svg">
+      <source media="(max-width: 1199px)" srcset="images/icon-arrow-dark.svg">
+      <img src="images/icon-arrow-dark.svg">
+    </picture>
+    </label>
+    <input type="checkbox" id="companyMenu">
+    
+
+    <ul id="company">
+      <li><a href="">About</a></li>
+      <li><a href="">Team</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Careers</a></li>
+    </ul>
+  </li>
+   
+  
+  <li id="_conn">
+    <label for="connectMenu">
+    <span>Connect</span>
+    <picture>
+      <source media="(min-width: 1200px)" srcset="images/icon-arrow-light.svg">
+      <source media="(max-width: 1199px)" srcset="images/icon-arrow-dark.svg">
+      <img src="images/icon-arrow-dark.svg">
+    </picture>
+    </label>
+    <input type="checkbox" id="connectMenu">
+   
+
+      <ul id="connect">
+        <li><a href="">Contact</a></li>
+        <li><a href="">Newsletter</a></li>
+        <li><a>LinkedIn</a></li>
+      </ul>
+  </li>
+  </ul>
+  
+  <ul id="social">
+  <li><span class="button" id="log">Login</li>
+  <li><span class="button" id="sign">Sign Up</li>
+  </ul><!--navlist end-->
+</div>
+</nav>
+  <div id="header_text">
+  <span id="header"><p>A modern publishing platform</p></span>
+  <p>Grow your audience and build your online brand</p>
+</div>
+<!--#header_text end-->
+<div id="header_buttons">
+  <div class="button" id="start"><p>Start for Free</p></div>
+  <div class="button" id="learn"><p>Learn More</p></div>
+  <!--#header_buttons end-->
+  </div>
+</div>
+<!--#header end
+</div>-->
+</header>
+<div id="main">
+  <h2>Designed for the future</h2>
+  <div id="designed">
+   
+  <div id="designed_content">
+    
+  <div id="editor"><picture>
+    <source media="(max-width: 1199px)" srcset="images/illustration-editor-mobile.svg">
+    <source media="(min-width: 1200px)" srcset="images/illustration-editor-desktop.svg">
+    <img src="images/illustration-editor-mobile.svg" alt="" />
+  </picture></div>
+  <div id="designed_text">
+  <h2>Introducing an extensible editor</h2>
+  <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+  change the looks of a blog.</p>
+
+  <h2 id="robust">Robust content management</h2>
+  <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+  <!--#designed_text end-->
+  </div>
+  <!--#designed_comtent end-->
+  </div>
+  <!--#designed end-->
+</div>
+<div id="state">
+  <div id="phones"><img src="images/illustration-phones.svg" alt="" /></div>
+  <div id="state_text">
+  <h2>State of the Art Infrastructure</h2>
+  <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+  <!--#state_text end-->
+  </div>
+<!--#state end-->
+</div>
+<div id="free">
+  <div id="laptop">
+    <picture>
+      <source media="(max-width: 1199px)" srcset="images/illustration-laptop-mobile.svg">
+      <source media="(min-width: 1200px)" srcset="images/illustration-laptop-desktop.svg">
+      <img src="images/illustration-laptop-mobile.svg" alt="" />
+    </picture>
+  </div>
+  <div id="free_text">
+  <h2>Free, open, simple</h2>
+  <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+
+  <h2>Powerful tooling</h2>
+  <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+  capable of producing even the most complicated sites.</p>
+  <!--free text end-->
+  </div>
+  <!--free end-->
+  </div>
+  <!--main end-->
+</div>
+<footer>
+    <div id="footer_content">
+  <div id="footer_logo"><img src="images/logo.svg" alt="" /></div>
+  
+    <div>
+  <h4>Product</h4>
+
+  <a>Overview</a><br>
+  <a>Pricing</a><br>
+  <a>Marketplace</a><br>
+  <a>Features</a><br>
+  <a>Integrations</a><br></div>
+
+  <div>
+  <h4>Company</h4>
+
+  <a>About</a><br>
+  <a>Team</a><br>
+  <a>Blog</a><br>
+  <a>Careers</a><br></div>
+
+  <div>
+  <h4>Connect</h4>
+  
+  <a>Contact</a><br>
+  <a>Newsletter</a><br>
+  <a>LinkedIn</a><br></div>
+  <!--#footer_text end-->
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ayomikun Akinode</a>.
+  </div>
+  </footer>
+  </div>
+  <script src="blogr.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

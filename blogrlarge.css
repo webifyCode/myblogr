@@ -1,0 +1,278 @@
+@media (min-width: 1200px) {
+
+  body {
+    content-visibility: auto;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /*header*/
+  header {
+    background: url("images/bg-pattern-intro.svg");
+    background-color: hsl(353, 100%, 62%);
+    background-size: 500%;
+    background-position: 38% 35%;
+    border-bottom-left-radius: 5em;
+    color: white;
+    padding: 1em;
+    padding-top: 3em;
+    padding-bottom: 10em;
+    margin-bottom: 10em;
+  }
+
+  header p {
+    margin-bottom: 0;
+  }
+  
+  #header>p {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  
+  #header_text {
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*****************/
+  /*navigation*/
+  #hamburger, #navclose {
+    position: absolute;
+    display: none;
+  }
+
+  nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #navlist {
+    color: white;
+    background: transparent;
+    margin: 0 3em;
+    border-radius: 0.5rem;
+    position: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #navlist ul, #navlist ul li {
+    display: inline;
+    position: relative;
+  }
+
+  #navlist ul li {
+    padding: 0;
+    margin: 1em;
+    width: -webkit-fill-available;
+  }
+
+  #navlist ul ul {
+    background: white;
+    color: black;
+    position: absolute;
+    top: 2em;
+    left: 0;
+  }
+
+  #navlist ul ul, #navlist ul ul li {
+    display: block;
+  }
+
+  #navlist ul ul li {
+    cursor: pointer;
+    margin: 1em ;
+    font-weight: 100;
+    
+  }
+
+  #navlist ul ul li:hover {
+    font-weight: 700;
+  }
+
+  #navlist, #log, #sign, #start, #learn {
+    font-size: 18px;
+  }
+  
+  #log {
+    border: none;
+    padding: 0;
+  } 
+  #sign {
+    background: white;
+    color: red;
+    border: unset;
+  }
+
+  #sign:hover {
+    color: white;
+    background: hsla(353, 100%, 78%, 0.767);
+  }
+
+  #navlist, #log, #sign {
+    font-size: 18px;
+    transition: all 200ms ease-in 50ms;
+  }
+
+  /*sub-menus*/
+  ul {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding:0.7rem;
+  }
+  
+  li img {
+    margin-left: 0.5em;
+  }
+
+  #product, #company, #connect {
+    border-radius: 0.3rem;
+    background-color: hsl(240, 2%, 79%);
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  /*******************/
+
+  p, h1, h2, h4, li, div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #social {
+    border: none;
+  }
+
+  /*#designed*/
+#designed {
+ margin: 0;
+}
+
+#designed_content {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1em 0 1em 7em;
+  text-align: left;
+  max-height: 700px;
+}
+
+#designed_text {
+  margin: 0;
+  height: fit-content;
+}
+
+#editor {
+  width: 50%;
+}
+
+#editor img {
+  width: unset;
+  transform: translate(10px, -220px);
+}
+
+
+
+/*#state*/
+#phones {
+  position: unset;
+  transform: translate(0, 25px);
+}
+#phones img {
+  width: unset;
+  transform: unset;
+}
+
+#state {
+  padding: 0 7em;
+  height: 400px;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  background: url("images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: -212px -500px;
+  background-color: hsl(237, 17%, 21%);
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+#state_text {
+  color: white;
+  margin: 0;
+  transform: unset;
+}
+
+
+#state,  #free {
+  display: flex;
+  flex-direction: row;
+}
+
+#free {
+  padding: 8em 7em;
+  text-align: left;
+}
+
+#laptop {
+  width: 50%;
+}
+
+#laptop img {
+  width: unset;
+  transform: translate(-400px, 0);
+}
+
+ #free_text {
+  
+}
+
+#free_text {
+  padding: 11em 2em;
+  margin: 0;
+}
+
+#free p {
+  line-height: 1.5em;
+}
+
+
+
+
+
+
+
+  
+  
+  
+  footer {
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 5rem;
+    color: hsl(240, 2%, 79%);
+    padding: 1em;
+  }
+  
+  footer h4 {
+    color: white;
+  }
+
+  #footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em 7em 3em 0;
+    text-align: left;
+  }
+  
+}
