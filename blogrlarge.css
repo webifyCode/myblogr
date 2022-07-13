@@ -12,8 +12,7 @@
   header {
     background: url("images/bg-pattern-intro.svg");
     background-color: hsl(353, 100%, 62%);
-    background-size: 500%;
-    background-position: 38% 35%;
+    background-position: 50% 35%;
     border-bottom-left-radius: 5em;
     color: white;
     padding: 1em;
@@ -232,10 +231,6 @@
 #laptop img {
   width: unset;
   transform: translate(-400px, 0);
-}
-
- #free_text {
-  
 }
 
 #free_text {

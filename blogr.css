@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+button {
+  background: unset;
+  color: unset;
+}
+
 #container {
   text-align: center;
   line-height: 1.75rem;
@@ -174,7 +179,7 @@ li img {
   background: url("images/bg-pattern-circles.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: -10px -150px;
+  background-position: -100px -250px;
   background-color: hsl(237, 17%, 21%);
   border-top-right-radius: 5rem;
   border-bottom-left-radius: 5rem;
@@ -290,6 +295,10 @@ footer h4 {
   color: white;
   background: hsla(353, 100%, 78%, 0.767);
   border: none;
+}
+
+#learn {
+  color: white;
 }
 
 #learn:hover {
