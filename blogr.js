@@ -11,6 +11,7 @@ $(document).ready(function() {
     $("#navlist").slideUp('fast');
     $("#hamburger, #navclose").toggle();
   });
+
   /*/////////
    submenus
   /////////*/
@@ -32,12 +33,6 @@ $(document).ready(function() {
     $("#connect").slideToggle('fast');
     $("#company, #product").slideUp('fast');
   });
-  
-  
-  
-  
-  
-  
   
   
   
