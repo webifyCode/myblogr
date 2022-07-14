@@ -44,5 +44,5 @@ Users should be able to:
 ## Author
 
 - Website - [@5erious5am](https://github.com/5erious5am)
-- Frontend Mentor - [@5erious5am](https://www.frontendmentor.io/profile/%erious5am)
+- Frontend Mentor - [@5erious5am](https://www.frontendmentor.io/profile/5erious5am)
 
